@@ -170,6 +170,7 @@ ul {
     display: flex;
     flex-direction: column;
     padding-left: 24px;
+    /* border-left: 1px solid #e0e0e0; */
 }
 
 .news-card {
@@ -356,7 +357,7 @@ ul {
 
 .copyright {
     font-size: 14px;
-    color: #4a4a4a;
+    color: #959595;
 }
 
 .footer-links {
@@ -366,7 +367,7 @@ ul {
 
 .footer-links a {
     font-size: 14px;
-    color: #4a4a4a;
+    color: #959595;
     transition: color 0.3s;
 }
 
