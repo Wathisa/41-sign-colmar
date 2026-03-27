@@ -488,6 +488,17 @@ ul {
         margin-bottom: 0;
     }
 
+ /* ==== Thesis Section ==== */
+    .thesis-right {
+        display: none;
+    }
 
+    .thesis-left {
+        width: 100%;
+        padding-right: 0; 
+    }
 
+    .thesis-left h3 {
+        font-size: 24px; 
+    }
 }
