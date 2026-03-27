@@ -399,4 +399,66 @@ ul {
         height: 32px; 
         width: auto;
     }
+
+    /* ==== Hero Section ==== */
+    .hero-content {
+        flex-direction: column;
+    }
+
+    .hero-image {
+        width: 100%; 
+    }
+
+    .hero-text {
+        width: 100%; 
+        padding-left: 0;
+        padding-top: 32px; 
+        align-items: center; 
+    }
+
+    .hero-text h1 {
+        font-size: 32px; 
+    }
+    
+    .btn-primary {
+        max-width: 100%; 
+    }
+
+/* ==== Information Section ==== */
+    .info-left {
+        display: none; 
+    }
+
+    .info-right {
+        width: 100%;
+        padding-left: 0; 
+    }
+
+    .news-card {
+        flex-direction: column; 
+        padding-bottom: 24px;
+        margin-bottom: 24px;
+    }
+
+    .news-image {
+        width: 100%; 
+        margin-bottom: 16px; 
+        height: 180px; 
+        overflow: hidden; 
+    }
+
+    .news-image img {
+        width: 100%;
+        height: 100%; 
+        object-fit: cover; 
+    }
+
+    .news-text {
+        width: 100%;
+        padding-left: 0; 
+    }
+
+
+
+
 }
