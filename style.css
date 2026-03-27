@@ -18,14 +18,16 @@ ul {
     list-style: none;
 }
 
-/* ==== Header ==== */
-.site-header {
-    display: flex; 
-    justify-content: space-between;
-    align-items: center; 
-    height: 64px; 
-    padding: 0 24px; 
+/* ==== Header Section ==== */
+.header {
     background-color: #ffffff;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 64px; 
 }
 
 .logo-box {
@@ -331,4 +333,38 @@ ul {
     padding-left: 24px; 
     display: flex;
     flex-direction: column;
+}
+
+/* ==== Footer Section ==== */
+.footer {
+    background-color: #ffffff;
+    border-top: 1px solid #e0e0e0; 
+    padding-top: 16px;
+    padding-bottom: 24px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.copyright {
+    font-size: 14px;
+    color: #4a4a4a;
+}
+
+.footer-links {
+    display: flex;
+    gap: 16px; 
+}
+
+.footer-links a {
+    font-size: 14px;
+    color: #4a4a4a;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover {
+    color: #000000;
 }
