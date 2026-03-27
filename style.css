@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; /* ฟอนต์มาตรฐานที่ดูสะอาดตา */
+    color: #4a4a4a;
+}
+
+a {
+    text-decoration: none;
+    color: inherit; 
+}
+
+ul {
+    list-style: none;
+}
+
+/* ==== Header ==== */
+.site-header {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center; 
+    height: 64px; 
+    padding: 0 24px; 
+    background-color: #ffffff;
+}
+
+.logo-box {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    height: 32px;
+}
+
+.logo-box img {
+    height: 100%;
+}
+
+.logo-text {
+    font-size: 20px;
+    color: #9b9b9b;
+}
+
+.logo-text strong {
+    color: #4a4a4a;
+}
+
+.nav-links {
+    display: flex;
+    gap: 16px;/
+}
+
+.nav-links a {
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #000000;
+}
