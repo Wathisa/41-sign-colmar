@@ -368,3 +368,35 @@ ul {
 .footer-links a:hover {
     color: #000000;
 }
+
+/* ==== Mobile Responsive ==== */
+
+.mobile-only {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    
+    .container {
+        padding: 0 16px;
+    }
+
+/* ==== Header Section ==== */
+    
+    .desktop-only {
+        display: none;
+    }
+
+    .mobile-only {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center; 
+        padding: 0 16px; 
+    }
+
+    .mobile-nav img {
+        height: 32px; 
+        width: auto;
+    }
+}
