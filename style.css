@@ -382,7 +382,7 @@ ul {
     display: none;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 640px) {
     
     .container {
         padding: 0 16px;
