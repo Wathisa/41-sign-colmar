@@ -450,6 +450,11 @@ ul {
         margin-bottom: 24px;
     }
 
+    .news-card.highlight {
+    background-color: #ffffff; 
+    padding: 16px; 
+}
+
     .news-image {
         width: 100%; 
         margin-bottom: 16px; 
