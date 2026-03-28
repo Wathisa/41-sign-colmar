@@ -306,6 +306,7 @@ ul {
     width: 60%;
     display: flex;
     flex-direction: column;
+    padding-right: 24px;
 }
 
 .video-container {
@@ -337,7 +338,7 @@ ul {
 
 .thesis-right {
     width: 40%;
-    padding-left: 24px; 
+    /* padding-left: 24px;  */
     display: flex;
     flex-direction: column;
 }
